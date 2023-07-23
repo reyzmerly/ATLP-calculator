@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+        <title>ATLP Calculator</title>
+    </head>
+    <body>
+        <div id="calculator">
+            <div id="display">
+                <p id="display-text"></p>
+            </div>
+            <div id="buttons">
+                <button id="clear" class="other-buttons" data-key="Backspace">C</button>
+                <button id="plus-minus" class="other-buttons" data-key="m">+ / -</button>
+                <button id="percent" class="operation other-buttons" value="%" data-key="p">%</button>
+                <button id="root" class="operation other-buttons" value="sqrt" data-key="s">√</button>
+                <button class="number" value="7" data-key="7">7</button>
+                <button class="number" value="8" data-key="8">8</button>
+                <button class="number" value="9" data-key="9">9</button>
+                <button class="operation other-buttons" id="divide" value="/" data-key="/">/</button>
+                <button class="number" value="4" data-key="4">4</button>
+                <button class="number" value="5" data-key="5">5</button>
+                <button class="number" value="6" data-key="6">6</button>
+                <button class="operation other-buttons" id="multiply" value="*" data-key="*">*</button>
+                <button class="number" value="1" data-key="1">1</button>
+                <button class="number" value="2" data-key="2">2</button>
+                <button class="number" value="3" data-key="3">3</button>
+                <button class="operation other-buttons" id="subtract" value="-" data-key="-">-</button>
+                <button class="number" value="." data-key=".">.</button>
+                <button class="number" value="0" data-key="0">0</button>
+                <button id="equals" data-key="Enter">=</button>
+                <button class="operation other-buttons" id="add" value="+" data-key="+">+</button>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>
+                <span style="display: inline-block; font-size: 24px; color: #0d3254; background: #cccccc; border-radius: 60px; padding: 1px 20px;">©Jean  <script>
+                    document.write(new Date().getFullYear())
+                  </script> Remy</span>
+            </p>
+          </footer>
+        
+    </body>
+       
+</html>
