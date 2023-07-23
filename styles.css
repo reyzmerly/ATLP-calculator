@@ -81,16 +81,4 @@ button {
 #equals:active {
     background-color: #4c7c4c;
 }
-.footer {
-    position:absolute;
-    bottom: 0;
-    left: 0;
-    display:flow-root;
-    align-items:flex-end;
-    justify-content: center;
-    gap: 10px;
-    width: 100%;
-    padding: 10px;
-    font-size: 20px;
-  }
   
