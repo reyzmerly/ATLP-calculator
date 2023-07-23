@@ -1,7 +1,5 @@
 # The ATLP Odin Project: Calculator
 
-On-screen calculator using HTML, CSS and JavaScript.  
-
-Supports both mouse and keyboard input (square root = 's', percent = 'p', plus/minus = 'm').  
+this is a sample project of an On-screen calculator using HTML, CSS and JavaScript.   
 
 Live demo: https://reyzmerly.github.io/ATLP-calculator/
